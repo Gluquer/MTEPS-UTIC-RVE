@@ -148,9 +148,13 @@
                     target="__blank">Registrar ingreso</a>
                 </ul>
               </div>
+                <button type="button" class="btn btn-success" data-toggle="modal" data-target="#create">
+                  <span class="glyphicon glyphicon-plus"></span> Reporte </a>
+                </button>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
                   <span class="fa fa-bars"></span> Menu
                 </button>
+
 
                 <div class="collapse navbar-collapse" id="ftco-nav">
                 </div>
@@ -370,6 +374,7 @@
   <script src="./assets/js/popper.min.js"></script>
   <script src="./assets/js/bootstrap.min.js"></script>
   <script src="./assets/js/app.js"></script>
+  <?php include('modalFecha.php'); ?>
   <script>
     $(function () {
       $('[data-toggle="tooltip"]').tooltip();
